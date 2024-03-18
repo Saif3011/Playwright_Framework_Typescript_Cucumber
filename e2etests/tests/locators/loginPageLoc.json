@@ -1,0 +1,43 @@
+{
+    "loginLink": {
+        "locatorOptions": {},
+        "locator": "xpath=//a[contains(.,'My account') and @data-toggle]",
+        "description": "login Link",
+        "actionOptions" :{}
+    },
+    
+    "emailField": {
+        "locatorOptions": {},
+        "locator": "xpath=//input[@id='input-email']",
+        "description": "email Field"
+    },
+    "passwordField": {
+        "locatorOptions": {},
+        "locator": "xpath=//input[@id='input-password']",
+        "description": "password Field"
+    },
+    "loginBtn": {
+        "locatorOptions": {},
+        "locator": "xpath=//input[@value='Login']",
+        "description": "loginBtn"
+    },
+    "logoutLink": {
+        "locatorOptions": {},
+        "locator": "xpath=//a[contains(.,'Logout') and @class='list-group-item']",
+        "description": "logout Link"
+        
+    },
+    "editActLink": {
+        "locatorOptions": {},
+        "locator": "xpath=//a[contains(.,'Edit your account information')]",
+        "description": "editActLink",
+        "actionOptions":{"timeout":5000}
+    },
+    "continueBtn": {
+        "locator": "link",
+        "actionOptions":{"name": "Continue"},
+        "description": "continueBtn"
+    }
+
+    
+}

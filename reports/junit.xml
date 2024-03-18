@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuite failures="1" skipped="0" name="cucumber-js" time="11.870903789" tests="1">
+  <testcase classname="test login functionnality" name="test login functionnality" time="11.870903789">
+    <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m&#xA;&#xA;Expected: [32m2[39m&#xA;Received: [31m1[39m"><![CDATA[Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m2[39m
+Received: [31m1[39m
+    at Proxy.<anonymous> (C:\Users\saifallah-dakhlaoui\Desktop\Playwright_Typescript_Cucumber-main\node_modules\playwright\lib\matchers\expect.js:174:37)
+    at World.<anonymous> (C:\Users\saifallah-dakhlaoui\Desktop\Playwright_Typescript_Cucumber-main\e2etests\tests\steps\loginPage.spec.ts:35:15)]]></failure>
+    <system-out><![CDATA[Given User is on login page...............................................passed
+When User enter login details.............................................passed
+Then Home page should be displayed........................................passed
+When Upon logout..........................................................passed
+Then Logout should be successfull.........................................passed
+And this is a  dummy step to fail.........................................failed]]></system-out>
+  </testcase>
+</testsuite>

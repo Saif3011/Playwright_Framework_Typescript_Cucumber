@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ts--cucumber",
+  "version": "1.0.0",
+  "description": "this is automation playwright with BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test & npx ts-node index.ts"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "Saif Allah Dakhlaoui",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.42.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.42.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
