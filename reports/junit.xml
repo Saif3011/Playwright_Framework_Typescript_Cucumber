@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<testsuite failures="1" skipped="0" name="cucumber-js" time="11.870903789" tests="1">
-  <testcase classname="test login functionnality" name="test login functionnality" time="11.870903789">
+<testsuite failures="1" skipped="0" name="cucumber-js" time="15.455538589999998" tests="1">
+  <testcase classname="test login functionnality" name="test login functionnality" time="15.455538589999998">
     <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m&#xA;&#xA;Expected: [32m2[39m&#xA;Received: [31m1[39m"><![CDATA[Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
 
 Expected: [32m2[39m
